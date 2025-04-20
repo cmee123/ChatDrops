@@ -1,0 +1,100 @@
+@font-face {
+    font-family: titleFont;
+    src: url(Font/Flexas.ttf);
+}
+
+body {
+    width: 250px;
+    height: auto;
+}
+
+.content-wrapper {
+    padding: 10px;
+    z-index: 1;
+}
+
+.blue-background {
+    z-index: -1;
+    background-color: #6290C3;
+    width: 250px;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+}
+
+svg {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 250px;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: titleFont;
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+
+.usage-highlight {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.lifetime-usage {
+    margin-top: 10px;
+}
+
+.small-text {
+    margin: 0px;
+}
+
+.medium-text {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.large-text {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #6290C3;
+}
+
+.usage-highlight .d-flex {
+    gap: 5px;
+}
+
+.equivalent-usage {
+    margin-top: 10px;
+}
+
+.equivalent-usage p {
+    text-align: center;
+}
+
+.equivalent-usage .large-text {
+    font-size: 20px;
+}
+
+.equivalent-usage .medium-text {
+    margin-top: 0px;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+
+.col {
+    padding: 0px;
+}
+
+img {
+    height: 45px;
+    width: auto;
+    padding: 8px 4px 0px 0px;
+}
+
