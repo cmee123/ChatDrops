@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "description": "Measue the envionrment impact of your ChatGPT messages.",
-  "permissions": ["scripting", "activeTab", "storage", "tabs"],
+  "permissions": ["storage"],
   "host_permissions": ["https://chatgpt.com/*"],
   "action": {
     "default_icon": {            
